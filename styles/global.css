@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-padding-top: calc(4.43rem + 4rem);
+  background-color: #000;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(4.43rem + 4rem);
+  background-color: #000;
+}
+
+.max-width {
+  max-width: 100%;
+  padding: 0 80px;
+}
+
+@media (max-width: 425px) {
+  .max-width {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+}

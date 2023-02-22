@@ -1,0 +1,52 @@
+footer {
+  padding: 20px 23px;
+  color: #fff;
+  user-select: none;
+  text-align: center;
+}
+footer .made {
+  font-size: 7px;
+}
+footer .made h1 a {
+  color: white;
+  transition: 0.2s;
+  text-decoration: none;
+}
+.descri {
+}
+footer .made a:hover {
+  color: #6119c0;
+}
+footer img {
+  margin: auto;
+}
+.icon-social img {
+  width: 30px;
+  display: inline-block;
+}
+footer span a {
+  color: #6119c0;
+  text-decoration: none;
+}
+footer span a:hover {
+  text-decoration: underline;
+}
+.hide1 {
+  opacity: 0;
+}
+.icon-color,
+.icon-color1 {
+  display: none;
+  cursor: pointer;
+}
+.icon-color {
+  position: relative;
+  right: 15px;
+}
+.icon-color1 {
+  position: relative;
+  left: 16.8px;
+}
+.descri {
+  margin-top: 6px;
+}
